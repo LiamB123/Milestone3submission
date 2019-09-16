@@ -12,5 +12,6 @@ app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
 
 
 @app.route('/')
-    def get_cocktails():
-    return ('base.html')
+    def get_drinks():
+    return base.html
+    
